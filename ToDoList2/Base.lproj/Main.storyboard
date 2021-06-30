@@ -24,9 +24,6 @@
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="SEh-e7-8td" kind="show" identifier="moveToComplete" id="tmP-P0-PqP"/>
-                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -41,6 +38,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <segue destination="SEh-e7-8td" kind="show" identifier="moveToComplete" id="eKO-Gt-Egx"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3hE-6V-R6G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -107,7 +107,7 @@
                                 <rect key="frame" x="213.5" y="238" width="51" height="31"/>
                             </switch>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2mx-yX-p2E">
-                                <rect key="frame" x="170" y="170" width="32" height="34"/>
+                                <rect key="frame" x="151" y="170" width="32" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -128,7 +128,7 @@
                             <constraint firstItem="ORS-bY-VMd" firstAttribute="top" secondItem="7fM-vh-VOz" secondAttribute="top" constant="150" id="H0k-4A-XLr"/>
                             <constraint firstItem="28Q-wJ-VHB" firstAttribute="top" secondItem="7fM-vh-VOz" secondAttribute="top" constant="80" id="Hic-2f-Vcd"/>
                             <constraint firstItem="4BC-NC-qQ7" firstAttribute="leading" secondItem="7fM-vh-VOz" secondAttribute="leading" constant="113" id="Sr6-eQ-NWu"/>
-                            <constraint firstItem="2mx-yX-p2E" firstAttribute="leading" secondItem="vUN-NE-Jxb" secondAttribute="trailing" constant="29" id="W3e-Jc-Aza"/>
+                            <constraint firstItem="2mx-yX-p2E" firstAttribute="leading" secondItem="vUN-NE-Jxb" secondAttribute="trailing" constant="10" id="TFG-mn-u9O"/>
                             <constraint firstItem="7fM-vh-VOz" firstAttribute="trailing" secondItem="28Q-wJ-VHB" secondAttribute="trailing" constant="88" id="aYY-g8-gdt"/>
                             <constraint firstItem="vUN-NE-Jxb" firstAttribute="leading" secondItem="7fM-vh-VOz" secondAttribute="leading" constant="96" id="boe-cX-Jo7"/>
                             <constraint firstItem="7fM-vh-VOz" firstAttribute="trailing" secondItem="ORS-bY-VMd" secondAttribute="trailing" constant="151.5" id="e8s-tn-q0z"/>
@@ -139,7 +139,7 @@
                     <navigationItem key="navigationItem" id="J3A-pD-3K5"/>
                     <connections>
                         <outlet property="importantSwitch" destination="ORS-bY-VMd" id="Gd6-Yy-rNE"/>
-                        <outlet property="textField" destination="2mx-yX-p2E" id="aY5-V7-6zV"/>
+                        <outlet property="titleTextField" destination="2mx-yX-p2E" id="H5c-J3-qQF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rqe-m8-p6e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
