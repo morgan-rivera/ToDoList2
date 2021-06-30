@@ -14,6 +14,8 @@
 		453DB218268CC89000C2A385 /* ToDoList2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 453DB216268CC89000C2A385 /* ToDoList2.xcdatamodeld */; };
 		453DB21A268CC89400C2A385 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 453DB219268CC89400C2A385 /* Assets.xcassets */; };
 		453DB21D268CC89400C2A385 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 453DB21B268CC89400C2A385 /* LaunchScreen.storyboard */; };
+		453DB225268CC95300C2A385 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453DB224268CC95300C2A385 /* ToDoTableViewController.swift */; };
+		453DB227268CC98700C2A385 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453DB226268CC98700C2A385 /* ToDo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		453DB219268CC89400C2A385 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		453DB21C268CC89400C2A385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		453DB21E268CC89400C2A385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		453DB224268CC95300C2A385 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
+		453DB226268CC98700C2A385 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				453DB20F268CC89000C2A385 /* SceneDelegate.swift */,
 				453DB211268CC89000C2A385 /* ViewController.swift */,
 				453DB213268CC89000C2A385 /* Main.storyboard */,
+				453DB226268CC98700C2A385 /* ToDo.swift */,
+				453DB224268CC95300C2A385 /* ToDoTableViewController.swift */,
 				453DB219268CC89400C2A385 /* Assets.xcassets */,
 				453DB21B268CC89400C2A385 /* LaunchScreen.storyboard */,
 				453DB21E268CC89400C2A385 /* Info.plist */,
@@ -143,7 +149,9 @@
 				453DB212268CC89000C2A385 /* ViewController.swift in Sources */,
 				453DB20E268CC89000C2A385 /* AppDelegate.swift in Sources */,
 				453DB218268CC89000C2A385 /* ToDoList2.xcdatamodeld in Sources */,
+				453DB227268CC98700C2A385 /* ToDo.swift in Sources */,
 				453DB210268CC89000C2A385 /* SceneDelegate.swift in Sources */,
+				453DB225268CC95300C2A385 /* ToDoTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
